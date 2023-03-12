@@ -1,0 +1,11 @@
+fork():-
+1. Fork system call is used for creating a new process, which is called child process,
+2.A child process uses the same pc(program counter), same CPU registers, same open files which use in the parent process.
+3.returns an integer value. known as pid
+	Negative Value: creation of a child process was unsuccessful.
+	Zero: Returned to the newly created child process
+	Positive value: Returned to parent or caller.
+4. fork() is threading based function
+
+unistd.h:-
+1..unistd.h provides access to the POSIX operating system API

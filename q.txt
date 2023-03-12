@@ -1,0 +1,4 @@
+1a.unix commands
+1b.Write a C/Java program to display the output of any UNIX shell command
+
+2a.Write a program to create one parent with three child using fork() function where each process find its Id. using getpid()
