@@ -27,7 +27,5 @@ int main(){
 	
 	}
 	
-	
-	printf("\npid's are %d %d %d\n",pid,pid1,pid2);
 	return 0;
 }
