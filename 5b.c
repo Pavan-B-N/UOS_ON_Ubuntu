@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
         return -1;
     }
 
-    fd = open(argv[0], O_RDWR); // read write mode
+    fd = open(argv[1], O_RDWR); // read write mode
     if (fd == -1)
     {
         printf("Error : \n\n");
